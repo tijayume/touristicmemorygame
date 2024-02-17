@@ -1,0 +1,227 @@
+*{
+  box-sizing: border-box;
+  transition:0.4s; margin:0;
+}
+html {
+
+    overflow: hidden;
+    height: 100%;
+
+  font-size:16px;
+  font-family:"Poppins";
+}
+#tdeley{
+  transition-delay:1s;
+}
+.appear{
+  opacity:0;
+  transition:1s ease;
+}
+
+.righthalf{font-size:1.2rem;
+width:35rem;
+display:inline-block;
+height:21rem;margin-left:3rem;
+margin-top:0;
+padding-top:0;
+position:relative;
+bottom:8.5rem;
+}
+
+.lefthalf{
+  width:20rem;
+  height:34.3rem;
+  display:inline-block;
+  margin:0;
+  background-color: hsl(322, 50%, 87%);
+  position:relative;
+  top:0.2rem;
+  border:solid 0.5rem hsl(336, 71%, 95%);
+}
+.headline{
+  border-radius:3rem;
+  color:white;
+  width:20rem;
+  height:19rem;
+  margin: 0 auto 3rem auto;
+  padding-bottom:1rem;
+  background-position:center;
+  text-align: center;
+  background-size:cover;
+}
+
+h1{
+  color:#A3D9CF;
+  padding-top:1.2rem;
+}
+body{
+height: 100%;
+overflow: auto;
+
+  overscroll-behavior: none;
+  margin-bottom:0;
+}
+.grid-container{
+display:grid;
+grid-column:repeat(3, 3rem);
+grid-row:1.5rem;
+grid-column-gap:3rem;
+height:3.5rem;
+grid-auto-flow:column;
+width:15rem;
+border-radius:2.5rem;
+margin:0 auto;
+}
+button{
+  background-color:transparent;
+  border:none;
+  width:2.2rem;
+  height:2.2rem;
+  border-radius:2.2rem;
+}
+#ez{
+  background-color:#A3D9CF;
+  color:white;
+}
+.easy, .medium, .hard{
+  float:left;
+  background-color:pink;
+  border-radius:4rem;
+  width:3.4rem;
+  height:3.4rem;
+  font-size:1rem;
+  font-family:"Poppins";
+  color: #C3B1E1;
+  font-weight:bold;
+}
+.easy p, .hard p, .medium p {
+  padding-top:0.5rem;
+  margin:0;
+  text-decoration:none;
+}
+button:hover {
+    .easy, .medium, .hard {
+      width:4rem;height:4rem;
+    background-color:#C3B1E1;
+    color:pink;font-size:1.2rem;
+  }
+}
+h1+h3{
+  color:#FDFD96;
+}
+.gif{
+  height:12rem;
+  width:2rem;
+}
+a{
+  color:white;
+  opacity:0;
+}
+.aboutus{
+  position:fixed;
+  top:11rem;
+  right:0;
+  border-radius:4rem;
+  width:5rem;
+  height:2.7rem;
+  background-color:pink;
+}
+  .socials{
+    position:fixed;
+    top:15rem;
+    right:0;
+    border-radius:4rem;
+    width:7rem;
+    height:2.6rem;
+    background-color:pink;
+  }
+    .contact{
+      position:fixed;
+      top:19rem;
+      right:0;
+      border-radius:4rem;
+      width:5rem;
+      height:2.7rem;
+      background-color:pink;
+    }
+.aboutus:hover{
+  width:11rem;
+  a{
+    opacity:1;
+    padding-left:2rem;
+    text-decoration:none;
+    cursor:pointer;
+    }
+  }
+.socials:hover{
+  width:10rem;
+  a{
+    opacity:1;
+    padding-left:2rem;
+    text-decoration:none;
+    cursor:pointer;
+  }
+  }
+.contact:hover{
+  width:9rem;
+  a{
+    opacity:1;
+    padding-left:2rem;
+    text-decoration:none;
+    cursor:pointer;
+    }
+  }
+.connect{
+  position:fixed;
+  top:0;
+  right:0;
+  width:2rem;
+  height:21.7rem;
+  background-color:pink;
+}
+.heartlogo{
+  width:3rem;
+  height:3rem;
+  border-radius:3rem;
+}
+.connect2{
+  position:fixed;
+  top:30.4rem;
+  right:1.5rem;
+  width:2rem;
+  height:2.5rem;
+}
+.connect2:hover{
+  .heartlogo{
+    width:3.4rem;
+    height:3.5rem;
+    cursor:pointer;
+    }
+  }
+
+#main{
+  display:none;
+  height:30rem;
+  width:100vw;
+}
+.loadinimg{
+  width:6rem;
+  height:6rem;
+  opacity:0.5;
+}
+#loading{padding-left:8rem;
+  padding-top:14.2rem;
+  width:35rem;
+  margin:0 auto;
+  height:6rem;
+  color:pink;
+  font-size:0.4rem;
+}
+#loading p{font-size:2.4rem;
+  padding-left:4rem;
+  font-family:"Poppins";
+}
+.onama{
+  color:#FDFD96;
+  background-color:hsl(336, 71%, 95%);
+}
